@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1;
+    font-weight: bold;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    transition: all 1 ease;    
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 15px white;
+
+}
+/*home section*/
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    background: url('img4.jpg')no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px white;
+    align-items: center;
+    position: absolute;
+    right: 15%;
+    top: 32%;
+
+}
+.headings{
+    font-family:century;
+    font-size: 2.5rem;
+    text-align: center;
+    margin:45px 0px;
+}
+
+/*about me*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+    
+}
+#pic img{
+    width: 300px;
+    height: 400px; 
+    display: flex;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 12px;
+
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 22px;
+}
+
+/*my Work Section*/
+
+#My-Work{
+    display: flex;
+    flex-direction: column;
+}
+.
